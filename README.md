@@ -12,7 +12,10 @@ This repository is intended to provide a summarry of all the Ensemble SDK relate
 Ensemble Packages | Description
 ---------------------- | -----------
 [CMSIS dfp](https://github.com/alifsemi/alif_ensemble-cmsis-dfp) | Ensemble CMSIS dfp
+[VS Code template](https://github.com/alifsemi/alif_vscode-template) | Ensemble VS Code template 
+[Ensemble boardlib](https://github.com/alifsemi/alif_boardlib) | Ensemble boardlib
 [Ensemble ML](https://github.com/alifsemi/alif_ml-embedded-evaluation-kit) | Ensemble ML evaluation kit 
+[Ensemble Azure RTOS](https://github.com/alifsemi/alif_ensemble-Azure-RTOS) | Ensemble Azure RTOS CMSIS Pack
 
 ## Documentation
 
