@@ -18,8 +18,14 @@ Ensemble Packages | Description
 [Ensemble ML](https://github.com/alifsemi/alif_ml-embedded-evaluation-kit) | Ensemble ML evaluation kit 
 [Ensemble Free RTOS](https://github.com/alifsemi/alif_ensemble-FreeRTOS-Components) | Ensemble Free RTOS CMSIS Pack
 [Ensemble Azure RTOS](https://github.com/alifsemi/alif_ensemble-Azure-RTOS) | Ensemble Azure RTOS CMSIS Pack
+[LVGL Getting started](https://github.com/alifsemi/alif_ensemble-lvgl-getting-started) | Ensemble LVGL getting started
+
+## Tools
+* Alif Security tool
+* DCT
 
 ## Documentation
+* TBC: List all documents separately or point to a download package containing all docs?
 
 ## FAQ
 To view the FAQs, please visit
