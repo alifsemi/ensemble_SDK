@@ -2,9 +2,13 @@
 AlifSemi Ensemble SDK provides all the necessary instructions and tools to facilitate development of applications on Ensemble processors.
 
 AlifSemi Ensemble SDK includes:
-* ...
-* ...
-
+* Geting started guides and application notes
+* Tools for security and product configuration
+* Example applications and templates
+* Support for multiple tool chains - VSCode, Keil MDK  
+* Support for multiple compilers - GCC, Arm Clang
+* Support for multiple RTOSes - Free RTOS, Azure
+* Support for Ensemble evaluation kits
 
 ## Content Description
 This repository is intended to provide a summarry of all the Ensemble SDK related GitHub projects.
@@ -23,10 +27,16 @@ Ensemble Packages | Description
 ## Tools
 * Alif Security tool
 * DCT
+* Other?
 
 ## Documentation
 * TBC: List all documents separately or point to a download package containing all docs?
+* Add link(s)
 
+## Compatible evaluation kits
+* Ensemble Development kit (add link)
+* Ensemble Application kit (add link)
+  
 ## FAQ
 To view the FAQs, please visit
 * [Alif FAQs](https://alifsemi.com/support/faqs/)
