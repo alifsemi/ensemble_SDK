@@ -23,6 +23,8 @@ Ensemble Packages | Description
 [Ensemble Free RTOS](https://github.com/alifsemi/alif_ensemble-FreeRTOS-Components) | Ensemble Free RTOS CMSIS Pack
 [Ensemble Azure RTOS](https://github.com/alifsemi/alif_ensemble-Azure-RTOS) | Ensemble Azure RTOS CMSIS Pack
 [LVGL Getting started](https://github.com/alifsemi/alif_ensemble-lvgl-getting-started) | Ensemble LVGL getting started
+Viewfinder app?
+Blinky?
 
 ## Tools
 * Alif Security tool
