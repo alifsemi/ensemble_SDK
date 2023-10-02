@@ -23,22 +23,20 @@ Ensemble Packages | Description
 [Ensemble Free RTOS](https://github.com/alifsemi/alif_ensemble-FreeRTOS-Components) | Ensemble Free RTOS CMSIS Pack
 [Ensemble Azure RTOS](https://github.com/alifsemi/alif_ensemble-Azure-RTOS) | Ensemble Azure RTOS CMSIS Pack
 [LVGL Getting started](https://github.com/alifsemi/alif_ensemble-lvgl-getting-started) | Ensemble LVGL getting started
-Viewfinder example application?
-Blinky?
-DCT tool example application
+Viewfinder example application (*coming soon*)
+Conductor tool example application (*coming soon*)
 
 ## Tools
-* Alif Security tool
-* DCT
-* Other?
+* Alif Security Tool (*coming soon*)
+* Alif Conductor (*coming soon*)
+* Alif FLM OSPI Flash Programmer (*coming soon*)
 
 ## Documentation
-* TBC: List all documents separately or point to a download package containing all docs?
-* Add link(s)
+* *Coming Soon*
 
 ## Compatible evaluation kits
-* Ensemble Development kit (add link)
-* Ensemble Application kit (add link)
+* [Gen 2 Ensemble Development kit](https://alifsemi.com/support/kits/ensemble-devkit-gen2/)
+* [Gen 1 Ensemble ML/AI Application kit](https://alifsemi.com/support/kits/ai-ml-appkit/)
   
 ## FAQ
 To view the FAQs, please visit
