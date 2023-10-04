@@ -7,12 +7,11 @@ AlifSemi Ensemble SDK includes:
 * Example applications and templates
 * Support for multiple tool chains - VSCode, Keil MDK  
 * Support for multiple compilers - GCC, Arm Clang
-* Support for multiple RTOSes - Free RTOS, Azure
-* Support for Ensemble evaluation kits
+* Support for multiple RTOSes - FreeRTOS, Azure RTOS
+* Support for Ensemble Evaluation Kits
 
 ## Content Description
 This repository is intended to provide a summarry of all the Ensemble SDK related GitHub projects.
-NOTE, UPDATE with B2 repositories!!!!
 ### Ensemble Embedded Software packages 
 Ensemble Packages | Description
 ---------------------- | -----------
@@ -27,12 +26,13 @@ Viewfinder example application (*coming soon*)
 Conductor tool example application (*coming soon*)
 
 ## Tools
-* Alif Security Tool (*coming soon*)
-* Alif Conductor (*coming soon*)
-* Alif FLM OSPI Flash Programmer (*coming soon*)
+* Alif Security Tool (Available on Evaluation Kit specific web page linked below)
+* [Alif Conductor](https://conductor.alifsemi.com/)
 
 ## Documentation
-* *Coming Soon*
+* Data Sheets (Available on Evaluation Kit specific web page linked below)
+* Reference Manuals (Available on Evaluation Kit specific web page linked below)
+* Schematics (Available on Evaluation Kit specific web page linked below)
 
 ## Compatible evaluation kits
 * [Gen 2 Ensemble Development kit](https://alifsemi.com/support/kits/ensemble-devkit-gen2/)
