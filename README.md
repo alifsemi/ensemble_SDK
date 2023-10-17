@@ -22,7 +22,7 @@ Ensemble Packages | Description
 [Ensemble Free RTOS](https://github.com/alifsemi/alif_ensemble-FreeRTOS-Components) | Ensemble Free RTOS CMSIS Pack
 [Ensemble Azure RTOS](https://github.com/alifsemi/alif_ensemble-Azure-RTOS) | Ensemble Azure RTOS CMSIS Pack
 [LVGL Getting started](https://github.com/alifsemi/alif_ensemble-lvgl-getting-started) | Ensemble LVGL getting started
-[Viewfinder example application](https://github.com/alifsemi/alif_common-app-utils) | Ensemble Viewfinder example application
+[Viewfinder example application](https://github.com/alifsemi/alif_M55-viewfinder) | Ensemble Viewfinder example application
 [Common Application Utilities](https://github.com/alifsemi/alif_common-app-utils) | Ensemble Common Application Utilities
 Conductor tool example application (*coming soon*)
 
