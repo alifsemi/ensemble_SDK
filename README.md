@@ -7,7 +7,7 @@ AlifSemi Ensemble SDK includes:
 * Example applications and templates
 * Support for multiple tool chains - VSCode, Keil MDK  
 * Support for multiple compilers - GCC, Arm Clang
-* Support for multiple RTOSes - FreeRTOS, Azure RTOS
+* Support for multiple RTOSes - Azure RTOS, FreeRTOS (coming soon), and Zephyr (coming soon)
 * Support for Ensemble Evaluation Kits
 
 ## Content Description
@@ -19,12 +19,11 @@ Ensemble Packages | Description
 [VS Code template](https://github.com/alifsemi/alif_vscode-template) | Ensemble VS Code template 
 [Ensemble boardlib](https://github.com/alifsemi/alif_boardlib) | Ensemble boardlib
 [Ensemble ML](https://github.com/alifsemi/alif_ml-embedded-evaluation-kit) | Ensemble ML evaluation kit 
-[Ensemble Free RTOS](https://github.com/alifsemi/alif_ensemble-FreeRTOS-Components) | Ensemble Free RTOS CMSIS Pack
-[Ensemble Azure RTOS](https://github.com/alifsemi/alif_ensemble-Azure-RTOS) | Ensemble Azure RTOS CMSIS Pack
+[Ensemble Multicore Azure RTOS](https://github.com/alifsemi/alif_ensemble-vscode-multicore) | Ensemble Azure RTOS CMSIS Pack
 [LVGL Getting started](https://github.com/alifsemi/alif_ensemble-lvgl-getting-started) | Ensemble LVGL getting started
 [Viewfinder example application](https://github.com/alifsemi/alif_M55-viewfinder) | Ensemble Viewfinder example application
 [Common Application Utilities](https://github.com/alifsemi/alif_common-app-utils) | Ensemble Common Application Utilities
-Conductor tool example application (*coming soon*)
+[Conductor Tool Demo Application](https://github.com/alifsemi/alif_conductor-demo) | Demo application for Conductor Tool worflow
 
 ## Tools
 * Alif Security Tool (Available on Evaluation Kit specific web page linked below)
