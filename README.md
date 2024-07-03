@@ -15,10 +15,13 @@ This repository is intended to provide a summarry of all the Ensemble SDK relate
 ### Ensemble Embedded Software packages
 Ensemble Packages | Description
 ---------------------- | -----------
-[CMSIS dfp](https://github.com/alifsemi/alif_ensemble-cmsis-dfp) | Ensemble CMSIS dfp
+[Ensemble CMSIS DFP](https://github.com/alifsemi/alif_ensemble-cmsis-dfp) | Ensemble CMSIS DFP
+[Ensemble Azure RTOS pack](https://github.com/alifsemi/alif_ensemble-Azure-RTOS) | Ensemble Azure RTOS support pack
+[Ensemble FreeRTOS pack](https://github.com/alifsemi/alif_ensemble-FreeRTOS-Components) | Ensemble FreeRTOS support pack
 [VS Code template](https://github.com/alifsemi/alif_vscode-template) | Ensemble VS Code template
 [Ensemble boardlib](https://github.com/alifsemi/alif_boardlib) | Ensemble boardlib
 [Ensemble ML](https://github.com/alifsemi/alif_ml-embedded-evaluation-kit) | Ensemble ML evaluation kit
+[Ensemble CMSIS based ML example](https://github.com/alifsemi/alif_mlek-cmsis-examples) | Ensemble CMSIS-Pack based ML Example
 [Ensemble Multicore Azure RTOS](https://github.com/alifsemi/alif_ensemble-vscode-multicore) | Ensemble Azure RTOS CMSIS Pack
 [Viewfinder example application](https://github.com/alifsemi/alif_M55-viewfinder) | Ensemble Viewfinder example application
 [Common Application Utilities](https://github.com/alifsemi/alif_common-app-utils) | Ensemble Common Application Utilities
