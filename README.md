@@ -19,7 +19,7 @@ This repository is intended to provide a summarry of all the Ensemble SDK relate
 - Camera examples do not run on E1 devices due to different camera interface – only LP-Parallel is supported on E1.
 
 ### Ensemble Embedded Software packages
-Ensemble Packages | Description | E7 | E5 | E3 | E1
+Ensemble Packages | Description | E7 | E5 | E3 | E1/E1C
 ------------------| ----------- | ---| -- | -- | --|
 [VS Code template](https://github.com/alifsemi/alif_vscode-template) | Ensemble VS Code template. **START HERE** | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE
 [Ensemble CMSIS DFP](https://github.com/alifsemi/alif_ensemble-cmsis-dfp) | Ensemble CMSIS DFP | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE
