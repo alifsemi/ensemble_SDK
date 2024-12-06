@@ -21,7 +21,7 @@ This repository is intended to provide a summarry of all the Ensemble SDK relate
 ### Ensemble Embedded Software packages
 Ensemble Packages | Description | E7 | E5 | E3 | E1
 ------------------| ----------- | ---| -- | -- | --|
-[VS Code template](https://github.com/alifsemi/alif_vscode-template) | Ensemble VS Code template | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE
+[VS Code template](https://github.com/alifsemi/alif_vscode-template) | Ensemble VS Code template. **START HERE** | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE
 [Ensemble CMSIS DFP](https://github.com/alifsemi/alif_ensemble-cmsis-dfp) | Ensemble CMSIS DFP | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE
 [Ensemble Azure RTOS pack](https://github.com/alifsemi/alif_ensemble-Azure-RTOS) | Ensemble Azure RTOS support pack | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE
 [Ensemble Azure examples](https://github.com/alifsemi/alif_ensemble-vscode-azure-examples) | Ensemble Azure examples | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE
@@ -51,21 +51,29 @@ Ensemble Packages | Description | E7 | E5 | E3 | E1
 (3) Currently linker configuration is provided to M55 HE only but should be easy to port to work on M55 HP also.
 
 ## Tools
-* Alif Security Tool (Available on Evaluation Kit specific web page linked below)
+* Alif Security Tool (Wondows, Linux, and MacOS versions available at [Software & Tools](https://alifsemi.com/support/software-tools/ensemble/))
 * [Alif Conductor](https://conductor.alifsemi.com/)
 
 ## Documentation
-* Data Sheets (Available on Evaluation Kit specific web page linked below)
-* Reference Manuals (Available on Evaluation Kit specific web page linked below)
 * Schematics (Available on Evaluation Kit specific web page linked below)
+* [Datasheets](https://alifsemi.com/support/datasheets/ensemble/)
+* [Reference Manuals](https://alifsemi.com/support/reference-manuals/ensemble/)
+* [User Guide & App Notes](https://alifsemi.com/support/application-notes-user-guides/ensemble/)
+* [Whitepapers](https://alifsemi.com/whitepapers/)
+* [Case Studies](https://alifsemi.com/case-studies/)
 
 ## Compatible evaluation kits
 * [Gen 2 Ensemble Development kit](https://alifsemi.com/support/kits/ensemble-devkit-gen2/)
-* [Gen 1 Ensemble ML/AI Application kit](https://alifsemi.com/support/kits/ai-ml-appkit/)
+* [Gen 2 Ensemble ML/AI Application kit](https://alifsemi.com/support/kits/ai-ml-appkit-gen-2/)
+
+## Additional Resources
+* [Webinars](https://alifsemi.com/webinars/)
+* [Partners](https://alifsemi.com/partners/)
 
 ## FAQ
 To view the FAQs, please visit
 * [Alif FAQs](https://alifsemi.com/support/faqs/)
+
 ## Support
 For support, please visit
 * [Alif Support](https://alifsemi.com/support/technical-support/) to submit your support tickets
