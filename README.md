@@ -39,7 +39,7 @@ Packages | Description | E7 | E5 | E3 | E1/E1C | B1
 [Low Power Demo: Sensor Sampling](https://github.com/alifsemi/alif_LowPower_SensorSampling) | A use-case based low power demo for Alif Ensemble E1 and E3 processors | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [OSPI flasher example](https://github.com/alifsemi/alif_sd-to-ospi-flasher) | Programming OSPI flash from SD card demo | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [TinyUSB baremetal example](https://github.com/alifsemi/alif_m55-lvgl) | M55 LVGL Demo | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
-[Zephyr SDK](https://github.com/alifsemi/sdk-alif) | Starting point for Zephyr development | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE
+[Zephyr SDK](https://github.com/alifsemi/sdk-alif) | Starting point for Zephyr development on Alif devices | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE
 [Zephyr HAL for Alif](https://github.com/alifsemi/hal_alif) | Zephyr HAL port for Alif | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE
 [Zephyr OS for Alif](https://github.com/alifsemi/zephyr_alif) | Zephyr Project OS port for Alif | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE
 
