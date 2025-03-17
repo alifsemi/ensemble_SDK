@@ -36,6 +36,7 @@ Packages | Description | E7 | E5 | E3 | E1/E1C | B1
 [Conductor Tool Demo Application](https://github.com/alifsemi/alif_conductor-demo) | Demo application for Conductor Tool worflow | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [MP3 Player Demo](https://github.com/alifsemi/alif_mp3player) | MP3 Player with GUI Demo application | M55 HE/HP (2) | M55 HE/HP (2) | M55 HE/HP (2) | M55 HE (2) | M55 HE (4)
 [MCUboot example](https://github.com/alifsemi/alif_mcuboot_example) | MCUboot Example for Alif Ensemble | M55 HE (3) | M55 HE (3) | M55 HE (3) | M55 HE | M55 HE (4)
+[aiPM VSCode Example](https://github.com/alifsemi/alif_ensemble-vscode-aiPMExamples) | VSCode project for CMSIS Pack aiPM Examples | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [Low Power Demo: Sensor Sampling](https://github.com/alifsemi/alif_LowPower_SensorSampling) | A use-case based low power demo for Alif Ensemble E1 and E3 processors | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [OSPI flasher example](https://github.com/alifsemi/alif_sd-to-ospi-flasher) | Programming OSPI flash from SD card demo | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [TinyUSB baremetal example](https://github.com/alifsemi/alif_m55-lvgl) | M55 LVGL Demo | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
