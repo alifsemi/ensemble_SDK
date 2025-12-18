@@ -67,6 +67,8 @@ Packages | Description | E7 | E5 | E3 | E1/E1C | B1
 * [User Guide & App Notes](https://alifsemi.com/support/application-notes-user-guides/ensemble/)
 * [Whitepapers](https://alifsemi.com/whitepapers/)
 * [Case Studies](https://alifsemi.com/case-studies/)
+### Some Early Versions of Docmentation Released on GItHub
+* [How to Import Project to VSCode](./earlydocs/NewProcjectImportToVSCode.md)
 
 ## Compatible evaluation kits
 * [Gen 2 Ensemble Development kit](https://alifsemi.com/support/kits/ensemble-devkit-gen2/)
