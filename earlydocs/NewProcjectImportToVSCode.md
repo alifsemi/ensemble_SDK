@@ -1,17 +1,8 @@
----
-title: <span class="smallcaps">Application Note</span>
----
+# Application Note
 
-> **<span class="smallcaps">Importing Example Projects or Source Code Templates into</span>**
+> ## Importing Example Projects or Source Code Templates into VS CODE
 >
-> **VS CODE**
->
-> ![](images/media/image4.png)Application Note
->
-> AAPN0025 v2.0—December 2025
->
-> Alif Semiconductor [<u>www.alifsemi.com</u>](http://www.alifsemi.com/)
-
+> 
 ### Contents
 
 1.  [Introduction](#introduction) [1](#introduction)
