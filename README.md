@@ -6,8 +6,8 @@ Alif Semiconductor SDK includes:
 * Tools for security and product configuration
 * Example applications and templates
 * Support for multiple tool chains - VSCode, Keil MDK
-* Support for multiple compilers - GCC, Arm Clang
-* Support for multiple RTOSes - Azure RTOS, FreeRTOS, and Zephyr
+* Support for multiple compilers - GCC, ARM Clang, LLVM Clang
+* Support for multiple RTOSes - Zephyr, Eclipse ThreadX, and FreeRTOS
 * Support for Ensemble Evaluation Kits
 
 ## Content Description
@@ -16,9 +16,9 @@ This repository is intended to provide a summarry of all the SDK related GitHub 
 ### General guidelines
 - Most Ensemble SDK examples are designed to run on the M55 (HE/HP) cores in the Real Time Sub-System (RTSS)
 - RTSS example applications are built by default using either HP or HE core. The selected core is a build option and can be changed
-- Camera examples do not run on E1/E1C/B1 devices due to different camera interface – only LP-Parallel is supported on E1/E1C/B1.
+- Camera examples do not run on E1C/B1 due to different camera interface – only LP-Parallel is supported on E1C/B1.
 
-### Embedded Software packages
+### Base Embedded Software packages
 Packages | Description | E7 | E5 | E3 | E1/E1C | B1
 ------------------| ----------- | ---| -- | -- | --| --|
 [VS Code template](https://github.com/alifsemi/alif_vscode-template) | Ensemble VS Code template. **START HERE** | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
@@ -28,7 +28,6 @@ Packages | Description | E7 | E5 | E3 | E1/E1C | B1
 [Ensemble Multicore Azure RTOS example](https://github.com/alifsemi/alif_ensemble-vscode-multicore) | Ensemble Azure RTOS CMSIS Pack | M55 HE/HP | M55 HE/HP | M55 HE/HP | N.A. | N.A.
 [Ensemble FreeRTOS pack](https://github.com/alifsemi/alif_ensemble-FreeRTOS-Components) | Ensemble FreeRTOS support pack | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [FreeRTOS blinky example](https://github.com/alifsemi/alif_vscode-freertos-blinky) | Simple Blinky example with FreeRTOS | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
-[Ensemble boardlib](https://github.com/alifsemi/alif_boardlib) | Ensemble boardlib | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [Common Application Utilities](https://github.com/alifsemi/alif_common-app-utils) | Ensemble Common Application Utilities | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [Ensemble ML](https://github.com/alifsemi/alif_ml-embedded-evaluation-kit) | Ensemble ML evaluation kit | M55 HE/HP (1) | M55 HE/HP (1) | M55 HE/HP (1) | KWS only | KWS only
 [Ensemble CMSIS based ML example](https://github.com/alifsemi/alif_mlek-cmsis-examples) | Ensemble CMSIS-Pack based ML Example | M55 HE/HP | M55 HE/HP | M55 HE/HP | KWS only | KWS only
@@ -36,8 +35,6 @@ Packages | Description | E7 | E5 | E3 | E1/E1C | B1
 [Conductor Tool Demo Application](https://github.com/alifsemi/alif_conductor-demo) | Demo application for Conductor Tool worflow | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [MP3 Player Demo](https://github.com/alifsemi/alif_mp3player) | MP3 Player with GUI Demo application | M55 HE/HP (2) | M55 HE/HP (2) | M55 HE/HP (2) | M55 HE (2) | M55 HE (4)
 [MCUboot example](https://github.com/alifsemi/alif_mcuboot_example) | MCUboot Example for Alif Ensemble | M55 HE (3) | M55 HE (3) | M55 HE (3) | M55 HE | M55 HE (4)
-[aiPM VSCode Example](https://github.com/alifsemi/alif_ensemble-vscode-aiPMExamples) | VSCode project for CMSIS Pack aiPM Examples | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
-[Low Power Demo: Sensor Sampling](https://github.com/alifsemi/alif_LowPower_SensorSampling) | A use-case based low power demo for Alif Ensemble E1 and E3 processors | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [OSPI flasher example](https://github.com/alifsemi/alif_sd-to-ospi-flasher) | Programming OSPI flash from SD card demo | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [TinyUSB baremetal example](https://github.com/alifsemi/alif_m55-lvgl) | M55 LVGL Demo | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [Zephyr SDK](https://github.com/alifsemi/sdk-alif) | Starting point for Zephyr development on Alif devices | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE
@@ -56,6 +53,20 @@ Packages | Description | E7 | E5 | E3 | E1/E1C | B1
 
 (4) Use the E1C project for M55-HE on B1.
 
+### Power Management Related Baremetal Software packages
+Packages | Description 
+------------------| ----------- 
+[aiPM VSCode Example](https://github.com/alifsemi/alif_ensemble-vscode-aiPMExamples) | VSCode project for CMSIS Pack aiPM Examples
+[aiPM Services CLI](https://github.com/alifsemi/SERVICES_aiPM_CLI) | VSCode project for tuning and debugging aiPM Services
+[Low Power StopMode](https://github.com/alifsemi/alif_LowPowerDemo_StopMode) | VSCode project multicore project for Stop mode transition 
+[Low Power StandbyMode](https://github.com/alifsemi/alif_LowPowerDemo_StandbyMode) | VSCode project multicore project for Standby mode transition 
+[Low Power Sensor Sampling](https://github.com/alifsemi/alif_LowPower_SensorSampling) | Sample application using Timers for sampling sensor data and power modes for low power management
+[Low Power Image Capture](https://github.com/alifsemi/alif_LowPowerDemo_ImageCapture) | Template project for placing the ALIF MCU in a low power state with GPIO triggered image capture
+[Low Power Audio Capture](https://github.com/alifsemi/alif_LowPowerDemo_AudioCapture) | Single-core template project demonstrating the minimum device configuration for continuous audio capture
+[Low Power Peripherals](https://github.com/alifsemi/alif_EventRoutingDemo_LPperipherals) | Power demo with Low Power Peripherals
+
+
+
 ## Tools
 * Alif Security Tool (Wondows, Linux, and MacOS versions available at [Software & Tools](https://alifsemi.com/support/software-tools/ensemble/))
 * [Alif Conductor](https://conductor.alifsemi.com/)
@@ -65,17 +76,21 @@ Packages | Description | E7 | E5 | E3 | E1/E1C | B1
 * [Datasheets](https://alifsemi.com/support/datasheets/ensemble/)
 * [Reference Manuals](https://alifsemi.com/support/reference-manuals/ensemble/)
 * [User Guide & App Notes](https://alifsemi.com/support/application-notes-user-guides/ensemble/)
-* [Whitepapers](https://alifsemi.com/whitepapers/)
+* [Whitepapers](https://alifsemi.com/support/whitepapers/view-all/)
 * [Case Studies](https://alifsemi.com/case-studies/)
 ### Some Early Versions of Docmentation Released on GItHub
 * [How to Import Project to VSCode](./earlydocs/NewProcjectImportToVSCode.md)
 
 ## Compatible evaluation kits
-* [Gen 2 Ensemble Development kit](https://alifsemi.com/support/kits/ensemble-devkit-gen2/)
-* [Gen 2 Ensemble ML/AI Application kit](https://alifsemi.com/support/kits/ai-ml-appkit-gen-2/)
+* [E8 Ensemble Development kit](https://alifsemi.com/support/kits/ensemble-e8devkit/)
+* [E7 Ensemble Development kit](https://alifsemi.com/support/kits/ensemble-e7devkit/)
+* [E7 Ensemble ML/AI Application kit](https://alifsemi.com/support/kits/ensemble-e7appkit/)
+* [E1C Ensemble Development kit](https://alifsemi.com/support/kits/ensemble-e1cdevkit/)
+* [B1 Ensemble Development kit](https://alifsemi.com/support/kits/balletto-b1devkit/)
 
 ## Additional Resources
-* [Webinars](https://alifsemi.com/webinars/)
+* [Blogs](https://alifsemi.com/blog/)
+* [Videos](https://alifsemi.com/support/videos/)
 * [Partners](https://alifsemi.com/partners/)
 
 ## FAQ
