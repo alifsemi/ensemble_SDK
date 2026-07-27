@@ -80,6 +80,7 @@ Packages | Description
 * [Case Studies](https://alifsemi.com/case-studies/)
 ### Some Early Versions of Docmentation Released on GItHub
 * [How to Import Project to VSCode](./earlydocs/NewProcjectImportToVSCode.md)
+* [Getting Started with Power Management](./earlydocs/GettingStartedWithPowerManagement-AlifSemi.md)
 
 ## Compatible evaluation kits
 * [E8 Ensemble Development kit](https://alifsemi.com/support/kits/ensemble-e8devkit/)
