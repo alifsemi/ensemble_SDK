@@ -26,8 +26,6 @@ Packages | Description | E7 | E5 | E3 | E1/E1C | B1
 [Ensemble Azure RTOS pack](https://github.com/alifsemi/alif_ensemble-Azure-RTOS) | Ensemble Azure RTOS support pack | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [Ensemble Azure examples](https://github.com/alifsemi/alif_ensemble-vscode-azure-examples) | Ensemble Azure examples | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [Ensemble Multicore Azure RTOS example](https://github.com/alifsemi/alif_ensemble-vscode-multicore) | Ensemble Azure RTOS CMSIS Pack | M55 HE/HP | M55 HE/HP | M55 HE/HP | N.A. | N.A.
-[Ensemble FreeRTOS pack](https://github.com/alifsemi/alif_ensemble-FreeRTOS-Components) | Ensemble FreeRTOS support pack | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
-[FreeRTOS blinky example](https://github.com/alifsemi/alif_vscode-freertos-blinky) | Simple Blinky example with FreeRTOS | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [Common Application Utilities](https://github.com/alifsemi/alif_common-app-utils) | Ensemble Common Application Utilities | M55 HE/HP | M55 HE/HP | M55 HE/HP | M55 HE | M55 HE (4)
 [Ensemble ML](https://github.com/alifsemi/alif_ml-embedded-evaluation-kit) | Ensemble ML evaluation kit | M55 HE/HP (1) | M55 HE/HP (1) | M55 HE/HP (1) | KWS only | KWS only
 [Ensemble CMSIS based ML example](https://github.com/alifsemi/alif_mlek-cmsis-examples) | Ensemble CMSIS-Pack based ML Example | M55 HE/HP | M55 HE/HP | M55 HE/HP | KWS only | KWS only
